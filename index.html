@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechSolutions Pro - Servicios Tecnológicos Empresariales</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">TechSolutions Pro</a>
+            <ul class="nav-menu">
+                <li><a href="#" onclick="showSection('inicio')">Inicio</a></li>
+                <li><a href="#" onclick="showSection('empresa')">Empresa</a></li>
+                <li><a href="#" onclick="showSection('portafolio')">Portafolio</a></li>
+                <li><a href="#" onclick="showSection('testimonios')">Testimonios</a></li>
+                <li><a href="#" onclick="showSection('precios')">Precios</a></li>
+                <li><a href="#" onclick="showSection('noticias')">Noticias</a></li>
+                <li><a href="#" onclick="showSection('recursos')">Recursos</a></li>
+                <li><a href="#" onclick="showSection('faq')">FAQ</a></li>
+                <li><a href="#" onclick="showSection('contacto')">Contacto</a></li>
+            </ul>
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        </main>
+
+    <script src="js/script.js"></script>
+    <script>
+        // Load the initial section (e.g., 'inicio') when the page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            showSection('inicio');
+        });
+    </script>
+</body>
+</html>
