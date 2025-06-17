@@ -1,0 +1,95 @@
+<section id="contacto" class="section">
+    <div class="container">
+        <h2>Contacto</h2>
+        
+        <div class="contact-info">
+            <div class="contact-item">
+                <h3>📍 Dirección</h3>
+                <p>Av. Amazonas 1234<br>Edificio Cosmos, Piso 8<br>Quito, Ecuador 170135</p>
+            </div>
+            <div class="contact-item">
+                <h3>📞 Teléfono</h3>
+                <p>+593 2 234-5678<br>+593 99 876-5432</p>
+            </div>
+            <div class="contact-item">
+                <h3>📧 Email</h3>
+                <p>info@techsolutionspro.com<br>ventas@techsolutionspro.com</p>
+            </div>
+            <div class="contact-item">
+                <h3>🕒 Horarios</h3>
+                <p>Lun - Vie: 8:00 - 18:00<br>Sáb: 9:00 - 13:00<br>Dom: Cerrado</p>
+            </div>
+        </div>
+
+        <div style="background: #f8f9fa; padding: 3rem; border-radius: 15px; margin-top: 3rem;">
+            <h3 style="text-align: center; margin-bottom: 2rem;">Formulario de Contacto</h3>
+            <form id="contactForm">
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem;">
+                    <div class="form-group">
+                        <label for="nombre">Nombre Completo *</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem;">
+                    <div class="form-group">
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" id="telefono" name="telefono">
+                    </div>
+                    <div class="form-group">
+                        <label for="empresa">Empresa</label>
+                        <input type="text" id="empresa" name="empresa">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="servicio">Servicio de Interés</label>
+                    <select id="servicio" name="servicio">
+                        <option value="">Seleccionar servicio</option>
+                        <option value="desarrollo-web">Desarrollo Web</option>
+                        <option value="app-movil">Aplicación Móvil</option>
+                        <option value="cloud">Soluciones Cloud</option>
+                        <option value="ciberseguridad">Ciberseguridad</option>
+                        <option value="consultoria">Consultoría IT</option>
+                        <option value="soporte">Soporte Técnico</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="presupuesto">Presupuesto Estimado</label>
+                    <select id="presupuesto" name="presupuesto">
+                        <option value="">Seleccionar rango</option>
+                        <option value="500-2000">$500 - $2,000</option>
+                        <option value="2000-5000">$2,000 - $5,000</option>
+                        <option value="5000-10000">$5,000 - $10,000</option>
+                        <option value="10000+">$10,000+</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Mensaje *</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntanos sobre tu proyecto y cómo podemos ayudarte..." required></textarea>
+                </div>
+
+                <div style="text-align: center;">
+                    <button type="submit" class="submit-btn">Enviar Mensaje</button>
+                </div>
+            </form>
+        </div>
+
+        <div style="margin-top: 3rem; text-align: center;">
+            <h3>Síguenos en Redes Sociales</h3>
+            <div style="display: flex; justify-content: center; gap: 2rem; margin-top: 1rem;">
+                <a href="#" style="color: #667eea; font-size: 2rem; text-decoration: none;">📘</a>
+                <a href="#" style="color: #667eea; font-size: 2rem; text-decoration: none;">📷</a>
+                <a href="#" style="color: #667eea; font-size: 2rem; text-decoration: none;">🐦</a>
+                <a href="#" style="color: #667eea; font-size: 2rem; text-decoration: none;">💼</a>
+            </div>
+        </div>
+    </div>
+</section>
